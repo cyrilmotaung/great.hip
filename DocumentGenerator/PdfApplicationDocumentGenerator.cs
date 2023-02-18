@@ -1,5 +1,6 @@
 ﻿using great.hip.Domain.Extensions;
 using great.hip.Domain.Interfaces;
+using great.hip.Enums;
 using Nml.Improve.Me.DocumentOptions;
 using Nml.Improve.Me.Entities;
 using Nml.Improve.Me.Enums;
@@ -10,7 +11,7 @@ using System.Linq;
 
 namespace Nml.Improve.Me.Constants.DocumentGenerator
 {
-	public class PdfApplicationDocumentGenerator : IApplicationDocumentGenerator
+    public class PdfApplicationDocumentGenerator : IApplicationDocumentGenerator
 	{
 		private readonly IDataContext DataContext;
 		private IPathProvider _templatePathProvider;

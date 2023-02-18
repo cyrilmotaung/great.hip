@@ -1,4 +1,4 @@
-﻿namespace Nml.Improve.Me.Constants
+﻿namespace great.hip.Enums
 {
     public enum PdfConstants
     {
