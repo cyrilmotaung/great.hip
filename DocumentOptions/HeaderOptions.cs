@@ -1,4 +1,4 @@
-﻿using Nml.Improve.Me.Constants;
+﻿using great.hip.Enums;
 using Nml.Improve.Me.Enums;
 
 namespace Nml.Improve.Me.DocumentOptions
