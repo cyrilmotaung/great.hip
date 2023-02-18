@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace great.hip
+namespace Nml.Improve.Me.Interfaces
 {
 	public interface IApplicationDocumentGenerator
 	{

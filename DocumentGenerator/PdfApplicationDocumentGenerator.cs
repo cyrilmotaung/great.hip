@@ -1,9 +1,14 @@
-﻿using System;
+﻿using great.hip.Domain.Extensions;
+using great.hip.Domain.Interfaces;
+using Nml.Improve.Me.DocumentOptions;
+using Nml.Improve.Me.Entities;
+using Nml.Improve.Me.Enums;
+using Nml.Improve.Me.Interfaces;
+using Nml.Improve.Me.ViewModels;
+using System;
 using System.Linq;
-using great.hip;
-using Nml.Improve.Me.Dependencies;
 
-namespace Nml.Improve.Me
+namespace Nml.Improve.Me.Constants.DocumentGenerator
 {
 	public class PdfApplicationDocumentGenerator : IApplicationDocumentGenerator
 	{
